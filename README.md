@@ -2,7 +2,7 @@
 
 This repository contains the data collected as part of a research project from the Flexible Research Group to use Mechanical Neural Networks to design passive metamaterials
 
-# BeamData
+## BeamData
 
 The folder BeamData contains the data collected from performing linear compression tests on the passive beam designs used as part of this project, using an INSTRON 5966 universal testing machine, with a 500 N INSTRON load cell. 
 
@@ -10,7 +10,7 @@ The subfolders MaxStiffness, MedStiffness, and ZeroStiffness refer to the three 
 
 Within each subfolder, the CSV file for each test has been renamed from 1 to 10 to respect chronological order.
 
-# MNNLearning
+## MNNLearning
 
 The folder MNNLearning contains the data collected from running the mechanical neural network prototype located in the Flexible Research Group lab space to optimize towards the Spreading and Pinching behaviors.
 
