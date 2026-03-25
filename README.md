@@ -10,6 +10,12 @@ The subfolders MaxStiffness, MedStiffness, and ZeroStiffness refer to the three 
 
 Within each subfolder, the CSV file for each test has been renamed from 1 to 10 to respect chronological order.
 
+## BeamCADs
+
+The folder BeamCADs contains the CAD files for each beam design.
+
+The subfolders MaxStiffness, MedStiffness, and ZeroStiffness refer to the three separate beam designs. 
+
 ## MNNLearning
 
 The folder MNNLearning contains the data collected from running the mechanical neural network prototype located in the Flexible Research Group lab space to optimize towards the Spreading and Pinching behaviors.
