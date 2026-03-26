@@ -46,7 +46,9 @@ The subfolders Spreading and Pinching correspond to the two built metamaterials 
 
 Within each subfolder, the CSV files contain the time series data as collected by the camera trackers, and the workspace MATLAB data files include the parameters used in post-processing.
 
+The MATLAB script included in the fokder can be used to regenerate the post-processing. It should be initialized using the data from the respective MATLAB workspace files.
+
 The following list describes the relevant variables:
-- camerawidth, bottom_bottomgap, bottom_gap, bottom_topgap, top_bottomgap, top_gap, top_topgap describe the geometry of the mounting components in the camera system; the prefixes top_ and bottom_ indicate the relevant camera systems for node 1 and node 2, respectively; the _topgap and _bottomgap suffixes indicate the distances between the cameras and the vertical mounting assembly; the _gap suffixes indicate the pitch height of the cameras
-- theta1, theta2 describe the roll angles in the camera for the two nodes
+- camerawidth, bottom_bottomgap, bottom_gap, bottom_topgap, top_bottomgap, top_gap, top_topgap describe the geometry of the mounting components in the camera system; the prefixes top_ and bottom_ indicate the relevant camera systems for node 1 and node 2, respectively; the _topgap and _bottomgap suffixes indicate the distances between the cameras and the vertical mounting assembly; the _gap suffixes indicate the difference between the mounting loacations for the cameras used in alignment, and is used to compute theta1 and theta
+- theta1, theta2 describe the roll angles in the camera for the two nodes, and are used to generate rotation matrices to transform between the camera frames of reference used in the image recognition to the general frame of reference used for the metamaterial as a whole
 - CoMArray is the raw data, as included in the CSV file in the same folder
